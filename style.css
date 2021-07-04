@@ -9,7 +9,7 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 34px;
 }
 p {
   line-height: 170%;
@@ -21,33 +21,50 @@ p {
   display: flex;
 }
 .half-width {
-  width: 50%;
+  width: 44%;
+  float: left;
+  padding-left: 3%;
+  margin-left: 3%;
 }
 
 /* Style of Top Section */
 section {
-  padding: 2em 3em;
+  padding: 4em 0;
 }
 .top-section {
   background: url(image/top-banner.png) no-repeat left top;
 }
 .about-section {
-  padding: 0 3em;
+  padding: 0 2.5em;
 }
 .img-section {
   padding-left: 4em;
 }
 .img-section img {
-  width: 80%;
+  width: 90%;
 }
 a:link,
 a:visited {
   text-decoration: none;
-  padding: 10px 28px;
+  padding: 14px 28px;
   background: linear-gradient(orange, darkorange);
   color: #fff;
   font-weight: 700;
   display: inline-block;
   margin-top: 8px;
   border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* Css style of Dream Big*/
+.dream-big {
+  background-color: #f2f2f2;
+  padding: 8em 0;
+}
+
+.dream-text p {
+  padding-right: 80px;
+}
+
+.dream-text h2 {
 }
